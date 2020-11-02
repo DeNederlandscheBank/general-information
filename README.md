@@ -7,3 +7,5 @@ In this repository useful information is collected, ranging from an overview of 
 - [Overview of GitHub pages of other institutions](https://github.com/DeNederlandscheBank/general-information/blob/main/github_pages_institutions.md)
 
 If you have any suggestions/improvements, please let us know!
+
+Email: data_science@dnb.nl
