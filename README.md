@@ -1,4 +1,4 @@
-![DNB logo](https://www.dnb.nl/system/images/logo.png)
+<img src="https://www.dnb.nl/system/images/logo.png" width="260" height="80" />
 
 # General Information
 
