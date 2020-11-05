@@ -9,6 +9,7 @@ In addition to conventions, this page suggests packages that can help you follow
 
 
 ## Python
+### Style Guide
 One of the most used styled guides for Python is the PEP8 (PEP = Python Enhancement Proposals) Style Guide for Python Code. Find it **[here](https://www.python.org/dev/peps/pep-0008/)**. 
 
 A number of highlights:
@@ -24,4 +25,12 @@ A number of highlights:
             - ira_deduction
             - student_loan_interest)
   ```
+### Useful packages to help you with formatting your code
+- flake8
+
 ## R
+### Style Guide
+[The Tidyverse Style Guide](https://style.tidyverse.org/)
+
+### Useful packages to help you with formatting your code
+- styler
