@@ -14,6 +14,7 @@ One of the most used styled guides for Python is the PEP8 (PEP = Python Enhancem
 
 A number of highlights:
 
+- Function names should be lowercase, with words separated, e.g. ```calculate_x_with_y```
 - Write docstrings for all public modules, functions, classes, and methods. The recommended way of doing it is using the reStructuredText (reST) format, because it allows you to easily generate documentation based on these docstrings with [Sphinx](https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html).
   ```python
   def func(arg1, arg2):
@@ -40,8 +41,8 @@ A number of highlights:
 
     return True
   ```
-- Function names should be lowercase, with words separated, e.g. ```calculate_x_with_y```
 - Limit all lines to a maximum of 79 characters. This is, among other things, useful to be able to have multiple files open side-by-side, e.g. to do a code review. Use parentheses to break lines:
+
 
   ```python
     income = (gross_wages
@@ -50,6 +51,8 @@ A number of highlights:
             - ira_deduction
             - student_loan_interest)
   ```
+- ...
+
 ### Useful packages to help you with formatting your code
 - flake8
 
