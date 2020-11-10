@@ -6,5 +6,6 @@ In this repository useful information is collected, ranging from an overview of 
 
 - [Overview of GitHub pages of other institutions](https://github.com/DeNederlandscheBank/general-information/blob/main/github_pages_institutions.md)
 - [DNB Coding Conventions](https://github.com/DeNederlandscheBank/general-information/blob/main/coding_conventions.md)
+- [DSH Manifest](https://github.com/DeNederlandscheBank/general-information/blob/main/dsh_manifest.md)
 
 If you have any suggestions/improvements, please let us know by sending an email to data_science@dnb.nl.
