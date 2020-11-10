@@ -1,4 +1,4 @@
-# DNB Data Science community manifest
+# DNB Data Science Community Manifest
 Working with data has always been a core competency at De Nederlandsche Bank (DNB). Given the increased availability of data and new tools becoming available, interest is growing and a community is emerging. Community membership comes with benefits but also with responsibilities. Joining our community implies adhering to the principles laid out in this document.
 
 ## Introduction 
