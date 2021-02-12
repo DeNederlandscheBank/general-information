@@ -69,7 +69,7 @@ Best Practices:
 What you should do as a minimum:
 -	Archive copies of your scripts from time to time, so that you keep a rough record of the various states the code has taken during development.
 
-## Rule 5:	Document your code and add comments
+## Rule 5:	Document Your Code And Add Comments
 Use comments liberally, but not in excess. Preferably, they explain why you have written a piece of code, not what or how. Comments are essential to understand what your code is doing. It also helps the reader to understand what the way of thinking of the programmer was – which may not be immediately obvious from the code. Don't underestimate the many ways a reader – who might be your future self – can misunderstand. 
 Best Practices:
 -	Add docstrings to functions
