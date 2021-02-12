@@ -5,9 +5,9 @@ In addition to conventions, this page suggests packages that can help you follow
 
 **NB: This is a work in progress. The most important points for now:**
 
-**- For Python: use [PEP8](https://realpython.com/python-pep8/) as a guideline to style your Python code. Use [linters](https://code.visualstudio.com/docs/python/linting) to check your code. VSCode is arguably the best and [most used](https://www.datacamp.com/community/tutorials/top-python-ides-for-2019) editor right now. 
-- For R: use [The Tidyverse Style Guide](https://style.tidyverse.org/) and R packages `lintr` and `styler` to check and style your code according to a style guide.
-**
+- **For Python: use [PEP8](https://realpython.com/python-pep8/) as a guideline to style your Python code. Use [linters](https://code.visualstudio.com/docs/python/linting) to check your code. VSCode is arguably the best and [most used](https://www.datacamp.com/community/tutorials/top-python-ides-for-2019) editor right now.**
+- **For R: use [The Tidyverse Style Guide](https://style.tidyverse.org/) and R packages `lintr` and `styler` to check and style your code according to a style guide.**
+
 
 # Table of Contents
 - [Python](#Python)
