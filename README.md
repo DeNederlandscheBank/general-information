@@ -1,4 +1,4 @@
-<img src="https://www.dnb.nl/system/images/logo.png" width="260" height="80" />
+<img src="https://www.dnb.nl/media/obslqutz/dnb-logo-desktop.svg?mode=pad&width=190" width="260" height="80" />
 
 # General Information
 
