@@ -20,7 +20,18 @@ One of the most used styled guides for Python is the PEP8 (PEP = Python Enhancem
 
 A number of highlights:
 
-- Function names should be lowercase, with words separated, e.g. ```calculate_x_with_y```
+- Naming Conventions
+
+  :point_up: **Consistency is key!**
+  | Type     | Examples                                      |
+  |----------|-----------------------------------------------|
+  | Function | `function`, `my_function`                     |
+  | Variable | `x`, `var`, `my_variable`                     |
+  | Class    | `Model`, `MyClass`                            |
+  | Method   | `class_method`, `method `                     |
+  | Constant | `CONSTANT`, `MY_CONSTANT`, `MY_LONG_CONSTANT` |
+  | Module   | `module.py`, `my_module.py`                   |
+  | Package  | `package`, `mypackage`                        |
 - Write docstrings for all public modules, functions, classes, and methods. The recommended way of doing it is using the reStructuredText (reST) format, because it allows you to easily generate documentation based on these docstrings with [Sphinx](https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html).
   ```python
   def func(arg1, arg2):
