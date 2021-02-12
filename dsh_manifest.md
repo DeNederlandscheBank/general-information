@@ -29,7 +29,7 @@ With this in mind, we come to the following rules to make your analysis more acc
 - Rule 2:	Avoid Manual Data Manipulation Steps
 - Rule 3:	Archive the Exact Versions of All External Programs Used
 - Rule 4:	Version Control all Custom Scripts
-- Rule 5:	Add more Comments than you need yourself
+- Rule 5:	Document your code and add comments
 - Rule 6:	Record All Intermediate Results – if Possible in Standardized Formats
 - Rule 7:	Always Store Raw Data behind Plots
 - Rule 8:	Generate Hierarchical Analysis Output, Allowing Layers of Increasing Detail to Be Inspected	
@@ -65,14 +65,15 @@ What you should do as a minimum:
 ## Rule 4:	Version Control all Custom Scripts
 Even the slightest change to a computer program can have large intended or unintended consequences. When a continually developed piece of code (typically a small script) has been used to generate a certain result, only that exact state of the script may be able to produce that exact output, even given the same input data and parameters. As also discussed for rules 3 and 6, exact reproduction of results may in certain situations be essential. If computer code is not systematically archived along its evolution, backtracking to a code state that gave a certain result may be a hopeless task. This can cast doubt on previous results, as it may be impossible to know if they were partly the result of a bug or otherwise unfortunate behavior. Thus even when approximate reproduction is sufficient, small differences in outcomes will absorb disproportionate effort because you need to make sure these differences are not due to material errors.
 Best Practices:
--	Use a standard version control solution to track the evolution of code, GITLab in our case. GITLab is easy to set up and use, and may be used to systematically store the state of the code throughout development at any desired time granularity.
+-	Use a standard version control solution to track the evolution of code, i.e. a Git solution. Git is easy to set up and use, and may be used to systematically store the state of the code throughout development at any desired time granularity.
 What you should do as a minimum:
 -	Archive copies of your scripts from time to time, so that you keep a rough record of the various states the code has taken during development.
 
-## Rule 5:	Add more Comments than you need yourself
-Comment your code as much as possible and needed. The comments are essential to understand what your code is doing. It also helps the reader to understand what the way of thinking of the programmer was – which may not be immediately obvious from the code. Don’t underestimate the many ways a reader – who might be your future self – can misunderstand. Therefore you should add more explanation than what you think is necessary at the time of writing.
+## Rule 5:	Document your code and add comments
+Use comments liberally, but not in excess. Preferably, they explain why you have written a piece of code, not what or how. Comments are essential to understand what your code is doing. It also helps the reader to understand what the way of thinking of the programmer was – which may not be immediately obvious from the code. Don't underestimate the many ways a reader – who might be your future self – can misunderstand. 
 Best Practices:
--	Add a description to every script and every function.
+-	Add docstrings to functions
+- Add comments where your code is not immediately obvious
 
 ## Rule 6:	Record All Intermediate Results – if Possible in Standardized Formats
 In principle, as long as the full process used to produce a given result is tracked, all intermediate data can also be regenerated. In practice, having easily accessible intermediate results may be of great value. Quickly browsing through intermediate results can reveal discrepancies toward what is assumed, and can in this way uncover bugs or faulty interpretations that are not apparent in the final results. Secondly, it more directly reveals consequences of alternative programs and parameter choices at individual steps. Thirdly, when the full process is not readily executable, it allows parts of the process to be rerun. Fourthly, when reproducing results, it allows any experienced inconsistencies to be tracked to the steps where the problems arise. Fifth, it allows critical examination of the full process behind a result, without the need to have all executables operational. 
