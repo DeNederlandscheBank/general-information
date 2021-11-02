@@ -19,29 +19,29 @@ At DNB, with meeting deadlines and Single Supervisory Mechanism (SSM) requests, 
 In the following manifest, we lay out the most important aspects of producing reproducible work: making sure you store your code and can work together effectively, writing code that is clean and readable, reviewing each other’s work regularly, writing tests for your code and structuring your project. In addition, each of the sections contain concrete recommendations that we strongly recommend sticking to when working on projects.
 
 ## High Level Summary
-* ### Version Control
-    1. **Track changes in your code** <br>
-   For reproducibility, it is vital to keep track of changes in your code. The standard way to do this is using a version control system like Git. If you are not familiar with Git, we strongly encourage you to start learning it. At a minimum, you should archive copies of your code from time to time, to keep a rough record of the various states the code has taken during development.
-* ### Coding Practices
-    2. **Stick to language guidelines and practices** <br>
-    Make sure to adhere to language specific guidelines related to naming, long lines, and other best practices. Make sure that you are consistent if you choose a certain style and do not mix and match. Add explanatory documentation strings and comments to help colleagues understand your code.
-    3. **Give your code some thought** <br>
-    Before starting to write code, try to define the requirements of your code, i.e. what it needs to do. Which functions or other structures do you need and how are they interacting? This provides guidance, exposes possible bottlenecks early and hence saves time later on. Moreover, writing cleaner, more structured code makes it easier to reuse the code.
-    4. **Avoid manual steps** <br>
-   In line with above, avoid manual steps. Whether it is manual data manipulation step or copy pasting certain code to repeat a process, this is not a good practice. Instead, write a function to do the data manipulation or write a function to repeat a process: that is what functions are for!
-* ### Peer Review
-    5. **Code Review** <br>
-   Peer reviews are essential in academia, medicine and other work fields. We are no exception. Code reviews are an important aspect of code development. Regular reviews enhance code quality and structure and increases learning effects between colleagues. In general, it is advised that you work with another colleague on a project where code needs to be developed, such that a colleague can review your work. If you work alone, make sure to schedule a review with someone else.
-* ### Test your work
-    6. **Verify correctness of code** <br>
-    Testing whether the code you wrote is behaving as expected is of vital importance to avoid bugs. This is usually (partly) done with (automated) unit tests. If you are not familiar with unit testing, we advise you to familiarize yourself with this concept. At a minimum, make sure you manually test your functions with a set of test inputs to see whether the output matches your expectations and keep track of the results.
-* ### Project Management
-    7. **Project Structure** <br>
-   When starting a project, take some time to think of an appropriate way on how to structure your files and folders. A logical structure paves the way to a clean and maintainable code base. Furthermore, it makes it easier for others to locate files and to contribute to your project.
-    8. **Storing Output** <br>
-   Every project will have one or more outputs. Output can take several forms, ranging from trained/fitted models, figures, processed data, reports etc. Create directories to store these outputs.
-    9.  **Reproducibility: track software versions** <br>
-   Every project will use certain software. For reproducibility, it is essential to keep track of the exact versions of the software you use in your project. By doing this, the requirements to run the code/execute the program are documented.
+### Version Control
+1. **Track changes in your code** <br>
+For reproducibility, it is vital to keep track of changes in your code. The standard way to do this is using a version control system like Git. If you are not familiar with Git, we strongly encourage you to start learning it. At a minimum, you should archive copies of your code from time to time, to keep a rough record of the various states the code has taken during development.
+### Coding Practices
+2. **Stick to language guidelines and practices** <br>
+Make sure to adhere to language specific guidelines related to naming, long lines, and other best practices. Make sure that you are consistent if you choose a certain style and do not mix and match. Add explanatory documentation strings and comments to help colleagues understand your code.
+3. **Give your code some thought** <br>
+Before starting to write code, try to define the requirements of your code, i.e. what it needs to do. Which functions or other structures do you need and how are they interacting? This provides guidance, exposes possible bottlenecks early and hence saves time later on. Moreover, writing cleaner, more structured code makes it easier to reuse the code.
+4. **Avoid manual steps** <br>
+In line with above, avoid manual steps. Whether it is manual data manipulation step or copy pasting certain code to repeat a process, this is not a good practice. Instead, write a function to do the data manipulation or write a function to repeat a process: that is what functions are for!
+### Peer Review
+5. **Code Review** <br>
+Peer reviews are essential in academia, medicine and other work fields. We are no exception. Code reviews are an important aspect of code development. Regular reviews enhance code quality and structure and increases learning effects between colleagues. In general, it is advised that you work with another colleague on a project where code needs to be developed, such that a colleague can review your work. If you work alone, make sure to schedule a review with someone else.
+### Test your work
+6. **Verify correctness of code** <br>
+Testing whether the code you wrote is behaving as expected is of vital importance to avoid bugs. This is usually (partly) done with (automated) unit tests. If you are not familiar with unit testing, we advise you to familiarize yourself with this concept. At a minimum, make sure you manually test your functions with a set of test inputs to see whether the output matches your expectations and keep track of the results.
+### Project Management
+7. **Project Structure** <br>
+When starting a project, take some time to think of an appropriate way on how to structure your files and folders. A logical structure paves the way to a clean and maintainable code base. Furthermore, it makes it easier for others to locate files and to contribute to your project.
+8. **Storing Output** <br>
+Every project will have one or more outputs. Output can take several forms, ranging from trained/fitted models, figures, processed data, reports etc. Create directories to store these outputs.
+9.  **Reproducibility: track software versions** <br>
+Every project will use certain software. For reproducibility, it is essential to keep track of the exact versions of the software you use in your project. By doing this, the requirements to run the code/execute the program are documented.
 10.  ### Celebrate!
 
 ## Rule 1:	For Every Result, Keep Track of How It Was Produced
