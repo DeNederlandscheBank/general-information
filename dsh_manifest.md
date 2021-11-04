@@ -20,17 +20,17 @@ In the following manifest, we lay out the most important aspects of producing re
 
 ## High Level Summary
 ### :star: Version Control
-:one: **Track changes in your code** <br>
+#### **1 Track changes in your code** <br>
 For reproducibility, it is vital to keep track of changes in your code. The standard way to do this is using a version control system like Git. If you are not familiar with Git, we strongly encourage you to start learning it. At a minimum, you should archive copies of your code from time to time, to keep a rough record of the various states the code has taken during development.
 
 ### :star: Coding Practices
-:two: **Stick to language guidelines and practices** <br>
+**2 Stick to language guidelines and practices** <br>
 Make sure to adhere to language specific guidelines related to naming, long lines, and other best practices. Make sure that you are consistent if you choose a certain style and do not mix and match. Add explanatory documentation strings and comments to help colleagues understand your code.
 
-:three: **Give your code some thought** <br>
+**3 Give your code some thought** <br>
 Before starting to write code, try to define the requirements of your code, i.e. what it needs to do. Which functions or other structures do you need and how are they interacting? This provides guidance, exposes possible bottlenecks early and hence saves time later on. Moreover, writing cleaner, more structured code makes it easier to reuse the code.
 
-:four: **Avoid manual steps** <br>
+**4 Avoid manual steps** <br>
 In line with above, avoid manual steps. Whether it is manual data manipulation step or copy pasting certain code to repeat a process, this is not a good practice. Instead, write a function to do the data manipulation or write a function to repeat a process: that is what functions are for!
 ### :star: Peer Review
 :five: **Code Review** <br>
