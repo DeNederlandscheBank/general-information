@@ -13,7 +13,7 @@ Make sure to adhere to language specific guidelines related to naming, long line
 **3. Give your code some thought** <br>
 Before starting to write code, try to define the requirements of your code, i.e. what it needs to do. Which functions or other structures do you need and how are they interacting? This provides guidance, exposes possible bottlenecks early and hence saves time later on. Moreover, writing cleaner, more structured code makes it easier to reuse the code.
 
-**4 Avoid manual steps** <br>
+**4. Avoid manual steps** <br>
 In line with above, avoid manual steps. Whether it is manual data manipulation step or copy pasting certain code to repeat a process, this is not a good practice. Instead, write a function to do the data manipulation or write a function to repeat a process: that is what functions are for!
 ### :star: Peer Review
 **5. Code Review** <br>
@@ -51,6 +51,33 @@ At DNB, with meeting deadlines and Single Supervisory Mechanism (SSM) requests, 
 In the following manifest, we lay out the most important aspects of producing reproducible work: making sure you store your code and can work together effectively, writing code that is clean and readable, reviewing each other’s work regularly, writing tests for your code and structuring your project. In addition, each of the sections contain concrete recommendations that we strongly recommend sticking to when working on projects.
 
 ## Rule 1
+Version control helps you to keep track of changes in your code. It is particularly useful when working together in a 
+team on the same project. Without having some sort of version control system in place, you probably work together 
+in a folder on the same files, often with confusing names (v1, v2, final, ...). To make sure you do not accidentally 
+overwrite someone else's code, you constantly have to make sure you are not working on a file a colleague is working 
+on. At some point, you will inadvertently overwrite code. A version control system offers a solution that allows for 
+everyone in your team to work on any file and merge the changes later. Even when working on a project on your 
+own, version control helps keep track of changes and allows you revert back to previous versions of your code, 
+essentially providing a backup.
+
+The most popular version control system today is Git. If you are not familiar with Git, you can find a good 
+introduction [here](https://www.atlassian.com/git). Within your team, agree upon a workflow. Depending on the project and what you are comfortable with, use a 
+simple workflow such as using one main branch and developing features on separate branches. When you finish a 
+feature, the feature branch is merged back into the master branch by submitting a pull request. In the pull request,
+one or more team members can be assigned to review the code you want to merge back into the main branch. For 
+more information on code reviews see Section 4.
+
+Finally, make sure to double check which information you are committing to Git. Use a .gitignore file in your 
+repository to exclude files you do not want checked into version control. For example, make sure you do not 
+include any files that contain confidential data, passwords, keys and/or secrets. Keep in mind that once you 
+commit and push your changes, it will be very hard to erase them from your version history. In other words, think 
+carefully about which files you store in version control.
+
+### Recommendations
+* **Agree upon a Git workflow** that fits your project, team size and keeps overhead to a minimum. Start
+simple and add complexity as you need it. Not sure where to begin? We recommend either of two popular 
+flows: [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) or [GitHub Flow](https://guides.github.com/introduction/flow/).
+* Make sure you **do not check in confidential information to Git at any cost**.
 
 ## Rule 2
 
