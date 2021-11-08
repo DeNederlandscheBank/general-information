@@ -50,7 +50,7 @@ At DNB, with meeting deadlines and Single Supervisory Mechanism (SSM) requests, 
 
 In the following manifest, we lay out the most important aspects of producing reproducible work: making sure you store your code and can work together effectively, writing code that is clean and readable, reviewing each other’s work regularly, writing tests for your code and structuring your project. In addition, each of the sections contain concrete recommendations that we strongly recommend sticking to when working on projects.
 
-## Version Control
+## Rule 1 -- Version Control
 Version control helps you to keep track of changes in your code. It is particularly useful when working together in a team on the same project. Without having some sort of version control system in place, you probably work together in a folder on the same files, often with confusing names (v1, v2, final, ...). To make sure you do not accidentally overwrite someone else's code, you constantly have to make sure you are not working on a file a colleague is working on. At some point, you will inadvertently overwrite code. A version control system offers a solution that allows for 
 everyone in your team to work on any file and merge the changes later. Even when working on a project on your own, version control helps keep track of changes and allows you revert back to previous versions of your code, essentially providing a backup.
 
@@ -64,7 +64,7 @@ simple and add complexity as you need it. Not sure where to begin? We recommend 
 flows: [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) or [GitHub Flow](https://guides.github.com/introduction/flow/).
 * Make sure you **do not check in confidential information to Git at any cost**.
 
-## Code Practices
+## Rule 2,3 & 4 -- Code Practices
 Clean code means your code is easy to read, easy to understand and easy to maintain, extend or modify. Having clean code minimizes the probability colleagues will have to rewrite the same code entirely and improves the probability your code is actually reused. 
 
 When starting with programming, a common workflow often involves lots of copy pasting of code, using names with little meaning, and writing long functions, to name a few things. As long as it works, there seems to be no need to take another route. At some point, however, you realize that changing the code to implement some additional feature becomes very hard and you quickly lose the overall picture. Even working on a project on your own, you will – more often than you think – return to the inefficient codebase that you had written before. For these reasons, making use of code practices as outlined in this section can make you a better programmer, as well 
@@ -84,14 +84,14 @@ describe your functions, modules, classes of methods. Conveniently, they allow y
 documentation and help pages and present a consistent way of what readers can expect from the code 
 that is written. Bear in mind comments do not make up for bad code: clean your code instead of adding more comments.
 
-## Code Reviews
+## Rule 5 -- Code Reviews
 Code reviews are essential for every team involved in the development of code. Regular internal and/or external code reviews are of vital importance for high quality, maintainable code. Design problems and bugs are spotted earlier and more often. Moreover, the increased cooperation that is a result of the code review process leads to an atmosphere in which colleagues can learn from each other. As such, there is much more knowledge exchange and possible cross-fertilization (e.g. maybe someone tries to solve the same problem you are trying to solve). Apart from the fact that code reviews enhance the quality of the code and lead to more cooperation and learning, the dependence of an organization on certain developers is decreased. By utilizing regular code reviews, more developers are up to speed with the code behind a certain project/tool. Having a code review process in place can help with keeping up good coding practices. If you know a team member will look at your code, it also forces you to write code which can be understood by others. Lastly, as an organization, we have the responsibility to take our code seriously. Therefore, the following recommendations should be acted on by every team involved in code development.
 
 ### Recommendations
 * Internal code reviews should always be in place. When working in a team (using version control), make sure to let one of the team members review your merge/pull request. Take these reviews seriously. If it takes too much time, try to do it more often with smaller chunks of code. 
 * Strive to work on a project with at least one other person. If you work on a project alone, or are the only one who can do the coding in a project, make sure to schedule an external review with someone. 
 
-## Testing
+## Rule 6 -- Testing
 The necessity of writing readable, clean and maintainable code is recognized by most people that write code. However, the importance of code testing is often underestimated. Perfect, bug-free code is an illusion. Every codebase will have bugs/errors. These bugs can have a profound impact on users, organizations or even the society. To give a few well-known examples, in 1999 NASA lost a space craft due to a simple unit-conversion problem. In 2012, Knight Capital lost 440 million dollars due to a human error in trading software that could have easily been avoided. 
 
 Obviously, the impact of bugs depends on what the code is used for. Bugs in code that runs "in production" or will be reused often potentially have more impact. Such code should therefore always be tested thoroughly. But testing is not only restricted to such cases. Indeed, in other cases it is also important to verify the correctness of code. Imagine if an important policy decision is made based on code that contains a bug, without which a differentconclusion would be drawn. 
@@ -109,7 +109,7 @@ making changes in a code base.
 ### Recommendations
 * Unit tests might not always be needed. If you write code for an ad hoc analysis/task unit tests are probably too much. It is still good practice to verify that your code performs as you expect it to do. In any case, be sure not to disregard testing too quickly. In general, in cases where code is written that is regularly reused, unit tests are recommended. Think of functions that you use to preprocess data, create features, automate processes etc. Such functions are easily unit tested save you time in the long run!
 
-## Managing Your Project
+## Rule 7,8 & 9 -- Managing Your Project
 ### Structuring your project
 When starting a project – whether it’s in Python, R or any other language – take some time to think of an appropriate way of how to structure your files and folders. Structuring your project in a way that meets the goal of your project paves the way to a clean and effective code base. In addition, it makes it easy for your colleagues to find the code they are looking for and contribute to what you have written. Structuring your project is both about creating a logical folder structure as well as thinking about how to structure your code and leverage [software design patterns](https://en.wikipedia.org/wiki/Software_design_pattern).
 
@@ -128,3 +128,5 @@ Every project will have one or more outputs. Output can take several forms, rang
 * Make an effort to structure your project and make use of tools that can help such as cookiecutter.* Use a readme(.md) file at the root of your project directory to introduce people to your repository, lay out your structure and describe how your code works, among other things. For a curated list of great readme’s, see here.
 * Keep track of the exact versions of software you use in your project. This will ensure that your work is reproducible and enhances reuse of your code.
 * Create folders to store output of your project, be it figures, trained models or reports. Think carefully when you want to store (intermediate) data. Make sure you do not version control these results blindly as this can lead to leakage of (possible) confidential data.
+
+## Rule 10 -- Celebrate!
