@@ -15,15 +15,15 @@
 
 # R API's
 
-|  Data Source | Package name |                               URL                               |
-|:------------:|:------------:|:---------------------------------------------------------------:|
-| CBS          | cbsodataR    | https://cran.r-project.org/web/packages/cbsodataR/cbsodataR.pdf |
-| OECD         | OECD         | https://cran.r-project.org/web/packages/OECD/index.html         |
-| FED          | fredr        | https://www.rdocumentation.org/packages/fredr/versions/0.1      |
-| IMF          | imfr         | https://cran.r-project.org/web/packages/imfr/imfr.pdf           |
-| EUROSTAT     | eurostat     | https://cran.r-project.org/web/packages/eurostat/index.html     |
-| ECB (PUBLIC) | ecb          | https://cran.r-project.org/web/packages/ecb/index.html          |
-| WORLDBANK    | WDI          | https://cran.r-project.org/web/packages/WDI/WDI.pdf             |
-| WTO          |              |                                                                 |
-| GLEIF        |              |                                                                 |
-| EUREX        |              |                                                                 |
+|  Data Source | Package name                                                                   |  
+|:------------:|:------------------------------------------------------------------------------:|
+| CBS          | [cbsodataR](https://cran.r-project.org/web/packages/cbsodataR/cbsodataR.pdf)   |
+| OECD         | [OECD](https://cran.r-project.org/web/packages/OECD/index.html)                |         
+| FED          | [fredr](https://www.rdocumentation.org/packages/fredr/versions/0.1)            |       
+| IMF          | [imfr](https://cran.r-project.org/web/packages/imfr/imfr.pdf)                  |           
+| EUROSTAT     | [eurostat](https://cran.r-project.org/web/packages/eurostat/index.html)        |      
+| ECB (PUBLIC) | [ecb](https://cran.r-project.org/web/packages/ecb/index.html)                  |           
+| WORLDBANK    | [WDI](https://cran.r-project.org/web/packages/WDI/WDI.pdf)                     |              
+| WTO          |                                                                                |
+| GLEIF        |                                                                                |                                                                 
+| EUREX        |                                                                                |                                                                 
